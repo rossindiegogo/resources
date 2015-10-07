@@ -35,7 +35,7 @@ function FillRes() {
     function OKClick() {
         var arrInputs = resources.getElementsByTagName('input');
         for (var idx1 = 0; idx1 < arrInputs.length; idx1++) {
-            if (arrInputs[idx1].value.indexOf('OK') != -1) {
+            if (arrInputs[idx1].value.indexOf('Ok') != -1) {
                 arrInputs[idx1].click();
                 break;
             }
